@@ -1,0 +1,161 @@
+body{
+	background:url('back.jpg');
+	background-size:cover;
+	background-position: fixed;
+
+}
+
+#content{
+    overflow:hidden;
+    position:relative;
+	border:10px solid black;
+	border-radius:15px; 
+	width:400px;
+	height:400px;
+	margin-left:400px;
+	margin-top:120px;
+    box-shadow: 2px 1px 5px 1px;
+	
+	-webkit-animation:bounce 0.7s alternate infinite;
+	-webkit-animation:goUP 10s alternate infinite;
+}
+#content-prev{
+    overflow:hidden;
+    position:relative;
+	border:10px solid black;
+	border-radius:15px; 
+	width:400px;
+	height:400px;
+	margin-left:400px;
+	margin-top:170px;
+    box-shadow: 2px 1px 5px 1px;
+	-webkit-animation:bounce 0.7s alternate infinite;
+	-webkit-animation:goUP 10s alternate infinite;
+}
+#content-next{
+    overflow:hidden;
+    position:relative;
+	border:8px solid grey;
+	border-radius:10px; 
+	width:400px;
+	height:400px;
+	margin-left:400px;
+	margin-top:120px;
+    box-shadow: 2px 1px 5px 1px;
+	-webkit-animation:bounce 0.7s alternate infinite;
+	webkit-animation:goUP 30s alternate infinite;
+}
+/*#prev{
+
+	position:absolute;
+	z-index: 1;
+	margin-left:200px;
+	margin-top:100px;
+	height:100px;
+	width:100px;
+}
+#next{
+
+	display:inline;
+	position:fixed;
+	z-index: 3;
+	margin-left:900px;
+	margin-top:-365px;
+	height:100px;
+	width:100px;
+}*/
+
+.shadow{
+
+	background:black;
+	border: 5px solid black;
+	width:300px;
+	height:40px;
+	opacity:0.3;
+	border-radius:100%;
+	margin-left:450px;
+	margin-top:10px;
+
+	-webkit-animation:shade 0.7s alternate infinite;
+}
+
+@-webkit-keyframes bounce{
+
+		100%{
+			transform:translateY(-30px);
+		}
+
+}
+@-webkit-keyframes shade{
+
+		100%{
+			transform:scale(0.1);
+			opacity:0;
+		}
+
+}
+
+#partOne{
+
+	width:100%;
+	height:75%;
+	background:url("spongebob.png");
+	background-size:cover;
+}
+#partTwo{
+	padding-left: 10%;
+	padding-top: 5%;
+	overflow:hidden;
+	width:100%;
+	height:25%;
+	background:black;
+	opacity:0.8;
+}
+
+.heads{
+   text-align: left;
+	font-family:"Sans";
+	color:red;
+	font-weight: 800;
+	font-size: 22px;
+
+}
+.text{
+	
+	padding:5px;
+	margin-right:10%;
+	font-family:"Sans";
+	color:white;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+
+#partOne2{
+
+	width:100%;
+	height:75%;
+	background:url("superman.png");
+	background-size:cover;
+}
+#partTwo2{
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 15%;
+	overflow:hidden;
+	width:100%;
+	height:25%;
+	background:black;
+	opacity:0.8;
+}
+#toon{
+   
+    margin-top:-150px;
+	margin-left:250px;
+	position:fixed;
+}
+@-webkit-keyframes goUP{
+	100%{
+		transform:translateY(-200%);
+	}
+}
