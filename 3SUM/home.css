@@ -1,0 +1,290 @@
+body{
+    background-image: url("CREW13.jpg");
+    background-size: cover;
+    -webkit-animation: wholeAnim 5s alternate infinite;
+}
+
+
+
+.content{
+    
+    border-right: 5px solid OrangeRed;
+    border-bottom: 5px solid OrangeRed;
+    height: 10.5em;
+    width: 20.5em;
+    background-color:Red;   
+    position: absolute;
+    margin-left: 33em;
+    margin-top: 18em;    
+    border-top-left-radius: 50px;   
+   box-shadow: 12em 12em 12em 60em rgba(36, 36, 36, 0.56);
+  
+
+}
+.content p{
+    padding: 20px;
+     font-family: 'MS Gothic';
+    font-size: 2em;
+    font-kerning: normal;
+    font-weight: 900;
+    color:#fff;
+}
+.content2{
+    
+   
+    border-bottom: 5px solid OrangeRed;
+    border-left: 5px solid OrangeRed;
+   height: 10.5em;
+    width: 20.5em;
+    background-color: Red;    
+    position: absolute;
+    margin-left: 53em;
+    margin-top: 18em;
+    
+     border-top-right-radius: 50px;   
+
+}
+.content2 p{
+    padding: 20px;
+     font-family: 'MS Gothic';
+    font-size:2em;
+    font-kerning: normal;
+    font-weight: 900;
+  color: #fff;
+}
+.content3{
+    
+   
+    border-top: 5px solid OrangeRed;
+    border-right: 5px solid OrangeRed;
+    height:10.5em;
+    width: 20.5em;
+    background-color:Red;     
+    position: absolute;
+    margin-left: 33em;
+    margin-top: 28.5em;
+    border-bottom-left-radius: 50px;   
+   
+
+}
+.content3 p{
+    padding: 20px;
+     font-family: 'MS Gothic';
+    font-size: 2em;
+    font-kerning: normal;
+    font-weight: 900;
+    color: #fff;
+}
+.content4{
+    
+   
+    border-top: 5px solid OrangeRed;
+    border-left: 5px solid OrangeRed;
+    height: 10.5em;
+    width:20.5em;
+    background-color:Red;    
+    position: absolute;
+    margin-left: 53em;
+    margin-top: 28.5em;
+    border-bottom-right-radius: 50px;   
+    
+
+}
+.content4 p{
+    padding: 20px;
+    font-family: 'MS Gothic';
+    font-size: 2em;
+    font-kerning: normal;
+    font-weight: 900;
+    color: #fff;
+    
+}
+
+.content:hover{
+    background-color:OrangeRed   ;
+    
+}
+.content2:hover{
+    background-color:OrangeRed   ;
+   
+}
+.content3:hover{
+    background-color:OrangeRed   ;
+   
+}
+.content4:hover{
+    background-color:OrangeRed   ;
+   
+}
+.main{
+    
+     opacity: 0.9;
+}
+@-webkit-keyframes wholeAnim {
+    
+    0%{ background-image: url("CREW12.jpg");background-size: cover;
+   }
+
+     
+  100% { background-image: url("CREW13.jpg");
+    background-size: cover;
+   
+}
+
+}
+
+#Mluja{
+    
+    position: absolute;
+    font-family: Impact;
+    color: red;
+    font-size: 2em;
+    margin-left:11%;
+    margin-top: 5em;
+    font-weight: 900;
+   -webkit-animation: bubble 0.58s alternate infinite;
+}
+#Mluja:hover {
+     transform: scale(1.4);
+    color: #fff;
+    cursor: default;
+    -webkit-animation-play-state: paused;
+}
+#Ndura{
+    font-weight: lighter;
+    position: absolute;
+    font-family: Impact;
+   color: rgba(255, 255, 255, 0.98);
+    font-size: 2em;
+    margin-left:47%;
+    margin-top: -1em;
+    -webkit-animation: bubble 0.6s alternate infinite;
+}
+#Ndura:hover{
+        transform: scale(1.4);
+    color: #fff;
+    cursor: default;
+    -webkit-animation-play-state: paused;
+}
+#Aya{
+    margin-left:77% ;
+    margin-top: 2em;
+    position: absolute;
+   font-family: Impact;
+    color: red;
+    font-size: 2em;
+   -webkit-animation: bubble 0.65s alternate infinite;
+}
+#Aya:hover {
+    transform: scale(1.4);
+    color: #fff;
+    cursor: default;
+    -webkit-animation-play-state: paused;
+    
+}
+@-webkit-keyframes bubble{
+    
+    0%{
+        color: rgba(255, 255, 255, 0.98);
+       transform: translateY(0px)
+}
+     50%{color:Orange;
+            transform: scale(1.15);
+            
+            
+}
+    75%{color:rgba(255, 255, 255, 0.98);
+        
+    
+}
+    100%{color:rgba(255, 255, 255, 0.98);
+        ;}
+
+
+
+ }
+
+.social1{ 
+              width:200px;
+              height: 50px;
+              
+              position: absolute;
+              margin-top: 17%;
+              margin-left: 11%;
+              
+}
+.social2{ 
+              width:200px;
+              height: 50px;
+              
+              position: absolute;
+              margin-top: 3%;
+              margin-left: 47%;
+              
+}
+.social3{ 
+              width:200px;
+              height: 50px;
+              
+              position: absolute;
+              margin-top: 10%;
+              margin-left: 75%;
+              
+}
+#fb1{
+    background: url("images/fb.png");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #443e98;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+#twt1{
+    margin-left: 30%;
+    background: url("images/tw.jpg");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #fff;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+#fb2{
+    background: url("images/fb.png");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #443e98;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+#twt2{
+    margin-left: 30%;
+    background: url("images/tw.jpg");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #fff;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+#fb3{
+    background: url("images/fb.png");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #443e98;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
+#twt3{
+    margin-left: 30%;
+    background: url("images/tw.jpg");
+    background-size: cover;
+    border-radius:100%;
+    border: 2px solid #fff;
+    width: 3em;
+    height: 3em;
+    position: absolute;
+}
