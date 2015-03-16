@@ -1,0 +1,73 @@
+<div id="footer"></div>
+
+#footer{
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 450px;
+    margin-top: 365px;
+    margin-left: -10px;
+    z-index: 0;
+}
+
+
+ rgba(255, 255, 255, 0.96);
+
+####################################################################################################
+###################################################################################################
+                           var clickCount = 0;
+var imgIndex = 0;
+var images = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg", "img7.jpg"];
+
+var div = document.getElementById("content");
+function loadImg(NorP)//load image on click
+{
+    clickCount++;
+    if(NorP=="P")
+    {   
+        imgIndex--;
+        if(imgIndex <= 0)
+        {
+            div.fadeTo(2000,0.1);
+            var imgUrl ="url(../images/dtown/"+images[0]+")";
+            div.style.background = imgUrl;
+            if (imgIndex < 0) { imgIndex = 6; }
+        }
+        else
+        {
+            var imgUrl ="url(../images/dtown/"+images[imgIndex]+")";
+            div.style.background = imgUrl;
+        }
+    }
+    else if(NorP=="N")
+    {
+        imgIndex++;
+        if(imgIndex>=6)
+        {
+            var imgUrl ="url(../images/dtown/"+images[6]+")";
+            div.style.background = imgUrl;
+            if (imgIndex > 6) { imgIndex = 0; }
+            
+        }
+        else
+        {
+            var imgUrl ="url(../images/dtown/"+images[imgIndex]+")";
+            div.style.background = imgUrl;
+        }
+
+    }
+
+
+
+
+
+    
+    
+    
+}
+                                    ########
+                                #######
+        
+        
+        
+        
